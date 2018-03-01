@@ -1,0 +1,50 @@
+{
+	"velocityPIDConsts": {
+		"leftDrive_P": 1,
+		"leftDrive_I": 2,
+		"leftDrive_D": 3,
+		"leftDrive_F": 4,
+
+		"rightDrive_P": 5,
+		"rightDrive_I": 6,
+		"rightDrive_D": 7,
+		"rightDrive_F": 8
+	},
+	"teleOpConsts": {
+		"climbCurLim": 9,
+		"intakeSpeed": 10,
+		"outtakeSpeed": 11,
+		"reverseClimber": true
+	},
+	"autoTurnPIDConsts": {
+		"turn_P": 13,
+		"turn_I": 14,
+		"turn_D": 15
+	},
+	"autoTurnRampConsts": {
+		"turnS1": 16,
+		"turnD2": 17,
+		"turnS2": 18
+	},
+	"autoDrivePIDConsts": {
+		"leftPos_P": 19,
+		"leftPos_I": 20,
+		"leftPos_D": 21,
+
+		"rightPos_P": 22,
+		"rightPos_I": 23,
+		"rightPos_D": 24
+	},
+	"autoDriveRampConsts": {
+		"driveS1": 25,
+		"driveD2": 26,
+		"driveS2": 27,
+		"driveD3": 28,
+		"driveS3": 29,
+
+		"autoDriveRampUpS": 30,
+		"autoDriveRampUpD": 31,
+
+		"afterDriveWait": 32
+	}
+}
