@@ -1,50 +1,50 @@
 {
 	"velocityPIDConsts": {
-		"leftDrive_P": 1,
-		"leftDrive_I": 2,
-		"leftDrive_D": 3,
-		"leftDrive_F": 4,
+		"leftDrive_P": 0.2,
+		"leftDrive_I": 0,
+		"leftDrive_D": 0,
+		"leftDrive_F": 0.28,
 
-		"rightDrive_P": 5,
-		"rightDrive_I": 6,
-		"rightDrive_D": 7,
-		"rightDrive_F": 8
+		"rightDrive_P": 0.2,
+		"rightDrive_I": 0,
+		"rightDrive_D": 0,
+		"rightDrive_F": 0.29
 	},
 	"teleOpConsts": {
-		"climbCurLim": 9,
-		"intakeSpeed": 10,
-		"outtakeSpeed": 11,
-		"reverseClimber": true
+		"climbCurLim": 38,
+		"intakeSpeed": 1,
+		"outtakeSpeed": 0.85,
+		"reverseClimber": false
 	},
 	"autoTurnPIDConsts": {
-		"turn_P": 13,
-		"turn_I": 14,
-		"turn_D": 15
+		"turn_P": 200,
+		"turn_I": 0,
+		"turn_D": 0.001
 	},
 	"autoTurnRampConsts": {
-		"turnS1": 16,
-		"turnD2": 17,
-		"turnS2": 18
+		"turnS1": 1000,
+		"turnD2": 20,
+		"turnS2": 800
 	},
 	"autoDrivePIDConsts": {
-		"leftPos_P": 19,
-		"leftPos_I": 20,
-		"leftPos_D": 21,
+		"leftPos_P": 2.7,
+		"leftPos_I": 0,
+		"leftPos_D": 0.0004,
 
-		"rightPos_P": 22,
-		"rightPos_I": 23,
-		"rightPos_D": 24
+		"rightPos_P": 2.7,
+		"rightPos_I": 0,
+		"rightPos_D": 0.0004
 	},
 	"autoDriveRampConsts": {
-		"driveS1": 25,
-		"driveD2": 26,
-		"driveS2": 27,
-		"driveD3": 28,
-		"driveS3": 29,
+		"driveS1": 2000,
+		"driveD2": 36.8,
+		"driveS2": 1200,
+		"driveD3": 18.4,
+		"driveS3": 700,
 
-		"autoDriveRampUpS": 30,
-		"autoDriveRampUpD": 31,
+		"autoDriveRampUpS": 1000,
+		"autoDriveRampUpD": 9.2,
 
-		"afterDriveWait": 32
+		"afterDriveWait": 150
 	}
 }
