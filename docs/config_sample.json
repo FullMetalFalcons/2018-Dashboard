@@ -8,7 +8,7 @@
 		"rightDrive_P": 0.2,
 		"rightDrive_I": 0,
 		"rightDrive_D": 0,
-		"rightDrive_F": 0.29
+		"rightDrive_F": 0.275
 	},
 	"teleOpConsts": {
 		"climbCurLim": 38,
@@ -17,7 +17,7 @@
 		"reverseClimber": false
 	},
 	"autoTurnPIDConsts": {
-		"turn_P": 200,
+		"turn_P": 70,
 		"turn_I": 0,
 		"turn_D": 0.001
 	},
@@ -45,6 +45,6 @@
 		"autoDriveRampUpS": 1000,
 		"autoDriveRampUpD": 9.2,
 
-		"afterDriveWait": 150
+		"afterDriveWait": 200
 	}
 }
