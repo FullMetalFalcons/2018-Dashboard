@@ -27,13 +27,13 @@
 		"turnS2": 800
 	},
 	"autoDrivePIDConsts": {
-		"leftPos_P": 2.7,
+		"leftPos_P": 1.0,
 		"leftPos_I": 0,
-		"leftPos_D": 0.0004,
+		"leftPos_D": 0,
 
-		"rightPos_P": 2.7,
+		"rightPos_P": 1.0,
 		"rightPos_I": 0,
-		"rightPos_D": 0.0004
+		"rightPos_D": 0
 	},
 	"autoDriveRampConsts": {
 		"maxVel": 3090,
