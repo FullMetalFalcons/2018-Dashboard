@@ -36,15 +36,9 @@
 		"rightPos_D": 0.0004
 	},
 	"autoDriveRampConsts": {
-		"driveS1": 2000,
-		"driveD2": 36.8,
-		"driveS2": 1200,
-		"driveD3": 18.4,
-		"driveS3": 700,
-
-		"autoDriveRampUpS": 1000,
-		"autoDriveRampUpD": 9.2,
-
+		"maxAccel": 3000,
+		"maxVel": 3090,
 		"afterDriveWait": 200
+		
 	}
 }
