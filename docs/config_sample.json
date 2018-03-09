@@ -36,8 +36,8 @@
 		"rightPos_D": 0.0004
 	},
 	"autoDriveRampConsts": {
-		"maxAccel": 3000,
 		"maxVel": 3090,
+		"maxAccel": 3000,
 		"afterDriveWait": 200
 		
 	}
