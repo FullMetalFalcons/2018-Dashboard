@@ -19,7 +19,7 @@
 	"autoTurnPIDConsts": {
 		"turn_P": 70,
 		"turn_I": 0,
-		"turn_D": 0.001
+		"turn_D": 0.0001
 	},
 	"autoTurnRampConsts": {
 		"turnS1": 1000,
@@ -38,7 +38,7 @@
 	"autoDriveRampConsts": {
 		"maxVel": 3090,
 		"maxAccel": 3000,
-		"afterDriveWait": 100
+		"afterDriveWait": 0
 		
 	}
 }
