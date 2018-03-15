@@ -38,7 +38,7 @@
 	"autoDriveRampConsts": {
 		"maxVel": 3090,
 		"maxAccel": 3000,
-		"afterDriveWait": 0
+		"afterDriveWait": 200
 		
 	}
 }
