@@ -14,6 +14,7 @@
 		"climbCurLim": 38,
 		"intakeSpeed": 1,
 		"outtakeSpeed": 0.85,
+		"switchShootSpeed": 0.73,
 		"reverseClimber": false
 	},
 	"autoTurnPIDConsts": {
